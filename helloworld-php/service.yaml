@@ -7,7 +7,7 @@ spec:
   template:
     spec:
       containers:
-      - image: dockerfile:///
+      - image: dockerfile:///helloworld-php
         env:
         - name: TARGET
           value: "PHP Sample v1"

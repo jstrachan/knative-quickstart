@@ -1,4 +1,4 @@
-filenames:
+filename:
   - helloworld-go
   - helloworld-nodejs
   - helloworld-php
