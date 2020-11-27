@@ -5,3 +5,4 @@ filename:
 
 output: charts/knative-quickstart/templates
 flatten-output: true
+local-kaniko: false
