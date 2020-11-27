@@ -50,7 +50,7 @@ spec:
             git push origin v$VERSION
 
             jx step changelog --version v${VERSION}
-        - image: gcr.io/jenkinsxio/jx-mink:0.19.14
+        - image: gcr.io/jenkinsxio/jx-mink:0.19.15
           name: build-container-build
           script: |
             #!/busybox/sh

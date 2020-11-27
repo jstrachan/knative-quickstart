@@ -25,7 +25,7 @@ spec:
           script: |
             #!/usr/bin/env sh
             jx gitops variables
-        - image: gcr.io/jenkinsxio/jx-mink:0.19.14
+        - image: gcr.io/jenkinsxio/jx-mink:0.19.15
           name: build-container-build
           script: |
             #!/busybox/sh
