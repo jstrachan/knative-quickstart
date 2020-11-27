@@ -50,12 +50,11 @@ spec:
             git push origin v$VERSION
 
             jx step changelog --version v${VERSION}
-        - image: gcr.io/jenkinsxio/jx-mink:0.19.13
+        - image: gcr.io/jenkinsxio/jx-mink:0.19.14
           name: build-container-build
           script: |
             #!/busybox/sh
             source .jx/variables.sh
-            sleep infinity
             jx-mink package
         - image: gcr.io/jenkinsxio/jx-boot:3.0.755
           name: promote-helm-release
