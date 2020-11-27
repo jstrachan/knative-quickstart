@@ -55,6 +55,7 @@ spec:
           script: |
             #!/busybox/sh
             source .jx/variables.sh
+            sleep infinity
             jx-mink package
         - image: gcr.io/jenkinsxio/jx-boot:3.0.755
           name: promote-helm-release
