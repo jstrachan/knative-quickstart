@@ -1,5 +1,7 @@
 filename:
-  - helloworld-go
-  - helloworld-nodejs
-  - helloworld-php
+  - helloworld-go/service.yaml
+  - helloworld-nodejs/service.yaml
+  - helloworld-php/service.yaml
 
+output: charts/knative-quickstart/templates
+flatten-output: true
