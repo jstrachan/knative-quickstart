@@ -1,11 +1,11 @@
 apiVersion: kpt.dev/v1alpha1
 kind: Kptfile
 metadata:
-    name: lint
+  name: lint
 upstream:
-    type: git
-    git:
-        commit: 7ee24d404e627df93044dba4ff842398928892d7
-        repo: https://github.com/jenkins-x/jx3-pipeline-catalog
-        directory: /tasks/lint
-        ref: master
+  type: git
+  git:
+    commit: b307d1eafe19081a2ba853a17cd452bf85735a0f
+    repo: https://github.com/jenkins-x/jx3-pipeline-catalog
+    directory: /tasks/lint
+    ref: master
